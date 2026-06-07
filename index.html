@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Ahmad — Full Stack Developer</title>
+  <meta name="description" content="Muhammad Ahmad is a Full Stack Web Developer, No-Code Developer, and Automation Expert crafting high-performance modern web experiences." />
+  <meta name="keywords" content="Muhammad Ahmad, Full Stack Developer, Webflow Developer, Framer, React, Next.js, Pakistan Developer, Automation Expert" />
+  <meta name="author" content="Muhammad Ahmad" />
+  <meta property="og:title" content="Muhammad Ahmad — Full Stack Developer" />
+  <meta property="og:description" content="Full Stack Developer, No-Code Expert crafting high-performance modern web experiences." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <div class="bg-grid"></div>
+  <div class="bg-noise"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+  <div class="bg-glow bg-glow-3"></div>
+  <div id="particles"></div>
+
+  <!-- WhatsApp Float Button -->
+  <a class="whatsapp-btn" href="https://wa.me/923204162456" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+    </svg>
+  </a>
+
+  <div class="page-content">
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">MA.</a>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a href="mailto:mahmadv3101@gmail.com" class="btn-nav btn-nav-outline">Email Me</a>
+          <a href="#contact" class="btn-nav btn-nav-primary">Hire Me</a>
+        </div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="nav-mobile" id="nav-mobile">
+        <a href="#about" class="nav-mobile-link">About</a>
+        <a href="#skills" class="nav-mobile-link">Skills</a>
+        <a href="#projects" class="nav-mobile-link">Projects</a>
+        <a href="#contact" class="nav-mobile-link">Contact</a>
+        <a href="all-projects.html" class="nav-mobile-link">All Projects</a>
+      </div>
+    </nav>
+
+    <!-- =================== HERO =================== -->
+    <section class="hero" id="home">
+      <div class="hero-container">
+        <div class="hero-left">
+          <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Available for Freelance &amp; Remote Work
+          </div>
+          <h1 class="hero-title">
+            I Build <span class="gradient-text">Powerful Digital</span><br>
+            Experiences With Code
+          </h1>
+          <p class="hero-subtitle">
+            Full Stack Developer, No-Code Expert &amp; Automation Specialist crafting high-performance modern web experiences that scale.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              View Projects
+            </a>
+            <a href="#contact" class="btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              Let's Work Together
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat"><span class="stat-value">10+</span><span class="stat-label">Projects Shipped</span></div>
+            <div class="hero-stat"><span class="stat-value">3+</span><span class="stat-label">Years Experience</span></div>
+            <div class="hero-stat"><span class="stat-value">100%</span><span class="stat-label">Client Satisfaction</span></div>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="hero-image-wrapper">
+            <div class="hero-image-glow"></div>
+            <div class="hero-float-card float-card-1">
+              <div class="float-icon-text">React</div>
+              <div><div class="float-text-main">Next.js Developer</div><div class="float-text-sub">Frontend Expert</div></div>
+            </div>
+            <div class="hero-float-card float-card-2">
+              <div class="float-icon-text">WF</div>
+              <div><div class="float-text-main">Webflow Dev</div><div class="float-text-sub">No-Code Expert</div></div>
+            </div>
+            <div class="hero-float-card float-card-3">
+              <div class="float-label">// live</div>
+              <div class="float-value">8+ Projects Live</div>
+            </div>
+            <img src="assets/hero-character.png" alt="Muhammad Ahmad — Full Stack Developer" class="hero-img" loading="eager" />
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+        <span>Scroll Down</span>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- =================== ABOUT =================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-tag reveal">About Me</div>
+        <h2 class="section-title reveal stagger-1">The Developer <span class="gradient-text">Behind the Code</span></h2>
+        <p class="section-subtitle reveal stagger-2">Passionate about building scalable, modern web experiences that make a real difference.</p>
+
+        <div class="about-grid">
+          <!-- Left: Image -->
+          <div class="reveal-left">
+            <div class="about-image-wrapper">
+              <div class="about-glow"></div>
+              <div class="about-image-frame">
+                <img src="assets/hero-character.png" alt="Muhammad Ahmad" class="about-photo" />
+              </div>
+              <div class="about-experience-badge">
+                <div class="badge-number">3+</div>
+                <div class="badge-label">Years Experience</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Content -->
+          <div class="about-content reveal-right">
+            <p class="about-intro">
+              Hi, I'm <strong>Muhammad Ahmad</strong> — a <strong>BSCS student at Virtual University</strong> and a passionate Full Stack Web Developer. I specialize in building modern, high-performance web applications that blend beautiful design with powerful, reliable functionality.
+            </p>
+            <p class="about-intro">
+              From crafting <strong>custom web applications</strong> to developing <strong>SaaS platforms</strong>, building in <strong>Webflow &amp; Framer</strong>, and setting up <strong>automation workflows</strong> — I bring a complete skill set to every project. My goal is to create digital experiences that look exceptional and drive real business results.
+            </p>
+
+            <div class="about-tags">
+              <span class="about-tag">BSCS Student — Virtual University</span>
+              <span class="about-tag">Full Stack Developer</span>
+              <span class="about-tag">Webflow Developer</span>
+              <span class="about-tag">Framer Developer</span>
+              <span class="about-tag">Automation Expert</span>
+              <span class="about-tag">No-Code Specialist</span>
+            </div>
+
+            <div class="about-highlights">
+              <div class="highlight-card">
+                <div class="highlight-title">Fast Delivery</div>
+                <div class="highlight-desc">Clear milestones, on-time delivery, zero compromise on quality.</div>
+              </div>
+              <div class="highlight-card">
+                <div class="highlight-title">Premium Design</div>
+                <div class="highlight-desc">Pixel-perfect execution with modern, conversion-focused UI.</div>
+              </div>
+              <div class="highlight-card">
+                <div class="highlight-title">Scalable Code</div>
+                <div class="highlight-desc">Clean, modular codebases built to grow with your business.</div>
+              </div>
+              <div class="highlight-card">
+                <div class="highlight-title">Full Support</div>
+                <div class="highlight-desc">Post-launch support and clear documentation included.</div>
+              </div>
+            </div>
+
+            <a href="#contact" class="btn-primary">Work With Me &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- =================== SKILLS =================== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-tag reveal">Skills &amp; Expertise</div>
+        <h2 class="section-title reveal stagger-1">My Technical <span class="gradient-text">Skill Set</span></h2>
+        <p class="section-subtitle reveal stagger-2">A full-spectrum set of skills covering everything from responsive UIs to scalable backend systems.</p>
+        <div class="skills-grid" id="skills-grid"></div>
+        <div class="tech-marquee reveal">
+          <div class="tech-marquee-track" id="marquee-track"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- =================== PROJECTS =================== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-tag reveal">Portfolio</div>
+        <h2 class="section-title reveal stagger-1">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle reveal stagger-2">Click any project to see the full details, gallery, and live preview.</p>
+        <div class="projects-filter reveal stagger-3" id="filter-bar"></div>
+        <div class="projects-grid" id="projects-grid"></div>
+        <div class="view-more-wrapper reveal">
+          <a href="all-projects.html" class="btn-secondary" style="display:inline-flex;">View All Projects &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- =================== WHY ME =================== -->
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-tag reveal">Why Choose Me</div>
+        <h2 class="section-title reveal stagger-1">Why Work <span class="gradient-text">With Me?</span></h2>
+        <p class="section-subtitle reveal stagger-2">I don't just write code — I deliver solutions that matter to your business.</p>
+        <div class="why-grid" id="why-grid"></div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- =================== TESTIMONIALS =================== -->
+    <section class="section testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-tag reveal">Testimonials</div>
+        <h2 class="section-title reveal stagger-1">What Clients <span class="gradient-text">Say</span></h2>
+        <p class="section-subtitle reveal stagger-2">Real feedback from clients who trusted me with their projects.</p>
+        <div class="testimonials-grid" id="testimonials-grid"></div>
+      </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- =================== CONTACT =================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-tag reveal">Get In Touch</div>
+        <h2 class="section-title reveal stagger-1">Let's Build Something <span class="gradient-text">Great Together</span></h2>
+
+        <div class="contact-wrapper">
+          <div class="contact-info reveal-left">
+            <div class="contact-cta-text">Have a project in mind? <span class="gradient-text">Let's talk.</span></div>
+            <p class="contact-cta-sub">I'm always open to new projects, creative challenges, and collaboration opportunities. Whether it's a quick question or a full brief — reach out anytime.</p>
+
+            <div class="contact-details">
+              <a href="tel:+923204162456" class="contact-detail">
+                <div class="contact-detail-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <div class="contact-detail-text">0320 4162456</div>
+                  <div class="contact-detail-label">Phone / WhatsApp</div>
+                </div>
+              </a>
+              <a href="mailto:mahmadv3101@gmail.com" class="contact-detail">
+                <div class="contact-detail-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                  <div class="contact-detail-text">mahmadv3101@gmail.com</div>
+                  <div class="contact-detail-label">Email Address</div>
+                </div>
+              </a>
+              <a href="https://www.linkedin.com/in/muhammad-ahmad-a8a682397" target="_blank" rel="noopener" class="contact-detail">
+                <div class="contact-detail-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+                </div>
+                <div>
+                  <div class="contact-detail-text">linkedin.com/in/muhammad-ahmad</div>
+                  <div class="contact-detail-label">LinkedIn Profile</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-form-wrapper reveal-right">
+            <form id="contact-form">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label class="form-label" for="contact-name">Full Name</label>
+                  <input class="form-input" type="text" id="contact-name" name="name" placeholder="Your name" required />
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="contact-email">Email Address</label>
+                  <input class="form-input" type="email" id="contact-email" name="email" placeholder="your@email.com" required />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-subject">Subject</label>
+                <input class="form-input" type="text" id="contact-subject" name="subject" placeholder="What's this about?" />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-message">Message</label>
+                <textarea class="form-textarea" id="contact-message" name="message" placeholder="Tell me about your project..." required></textarea>
+              </div>
+              <button type="submit" class="btn-submit" id="submit-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                Send Message
+              </button>
+            </form>
+            <div class="form-success" id="form-success">
+              <div class="form-success-icon">&#10003;</div>
+              <div class="form-success-title">Message Sent!</div>
+              <div class="form-success-text">Thanks for reaching out. I'll get back to you within 24 hours.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="brand-logo">Muhammad Ahmad</div>
+            <p>Full Stack Developer, Webflow Expert &amp; Automation Specialist. Based in Pakistan, working with clients worldwide.</p>
+            <div class="footer-social">
+              <a href="https://www.linkedin.com/in/muhammad-ahmad-a8a682397" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+              <a href="https://wa.me/923204162456" target="_blank" rel="noopener" class="social-link" aria-label="WhatsApp">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+              </a>
+              <a href="mailto:mahmadv3101@gmail.com" class="social-link" aria-label="Email">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul class="footer-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="all-projects.html">All Projects</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul class="footer-links">
+              <li><a href="#skills">Full Stack Dev</a></li>
+              <li><a href="#skills">Webflow Dev</a></li>
+              <li><a href="#skills">Framer Dev</a></li>
+              <li><a href="#skills">Automation</a></li>
+              <li><a href="#skills">E-Commerce</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul class="footer-links">
+              <li><a href="tel:+923204162456">0320 4162456</a></li>
+              <li><a href="mailto:mahmadv3101@gmail.com">Email Me</a></li>
+              <li><a href="https://wa.me/923204162456" target="_blank">WhatsApp</a></li>
+              <li><a href="https://www.linkedin.com/in/muhammad-ahmad-a8a682397" target="_blank">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-copy">&copy; 2025 Muhammad Ahmad. Designed &amp; Developed by Muhammad Ahmad</div>
+          <div class="footer-copy">Full Stack Developer &middot; Webflow Expert &middot; Automation Specialist</div>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- end .page-content -->
+
+  <script src="app.js"></script>
+</body>
+</html>
