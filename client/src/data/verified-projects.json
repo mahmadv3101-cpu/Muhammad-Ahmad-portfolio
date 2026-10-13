@@ -1,0 +1,68 @@
+{
+  "ayyan-khan-portfolio": {
+    "githubUrl": "https://github.com/mahmadv3101-cpu/client--graphic-designer-portfolio",
+    "status": "rendered",
+    "image": null,
+    "contentMismatch": null
+  },
+  "boost-vertex": {
+    "githubUrl": "https://github.com/mahmadv3101-cpu/Boost-vertex",
+    "status": "rendered",
+    "image": null,
+    "contentMismatch": null
+  },
+  "skyelite": {
+    "githubUrl": "https://github.com/mahmadv3101-cpu/skyelite-landing-page",
+    "status": "rendered",
+    "image": null,
+    "contentMismatch": null
+  },
+  "luxe-mart": {
+    "githubUrl": "https://github.com/mahmadv3101-cpu/Luxe-Mart",
+    "status": "rendered",
+    "image": null,
+    "contentMismatch": null
+  },
+  "resume-ai": {
+    "githubUrl": null,
+    "status": "rendered",
+    "image": null,
+    "contentMismatch": null
+  },
+  "movie-stream": {
+    "githubUrl": "https://github.com/mahmadv3101-cpu/netflix-clone",
+    "status": "rendered",
+    "image": null,
+    "contentMismatch": "Portfolio record calls the project Movie Stream; current live page title and copy identify Netflix India."
+  },
+  "study-tracker": {
+    "githubUrl": null,
+    "status": "rendered",
+    "image": null,
+    "contentMismatch": null
+  },
+  "urban-vista": {
+    "githubUrl": null,
+    "status": "rendered",
+    "image": null,
+    "contentMismatch": null
+  },
+  "learnify": {
+    "githubUrl": "https://github.com/mahmadv3101-cpu/courseseekho",
+    "status": "rendered",
+    "image": null,
+    "contentMismatch": null
+  },
+  "forecaster": {
+    "githubUrl": null,
+    "status": "rendered",
+    "image": "./images/forecaster-verified.webp",
+    "contentMismatch": null
+  },
+  "dovehero": {
+    "githubUrl": null,
+    "status": "rendered",
+    "image": "./images/dovehero-verified.webp",
+    "contentMismatch": null
+  }
+}
